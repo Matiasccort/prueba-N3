@@ -1,5 +1,9 @@
-import eshirlitos
-
+import csv
+csv_acceso='registro.csv'
+def csv_acceso(ruta):
+with open (ruta'r'enconding='utf-8')as file:
+return csv.DictReader(file)
+registros[registro,]
 while True :
     try:
         print("#####esport eShirlitos#####")
@@ -12,17 +16,20 @@ while True :
         if direccion==1:
             while True:
                 try:
-                    print("seleccione el tipo de juego")
-                    print("1.- Valorant")
-                    print("2.- Fifa")
-                    print("3.- Fornite")
-                    opcion=int(input(""))
-                    if opcion>4:
-                        print(" numero selecionado equivocado, por favor intente de nuevo")
+                    def registro jugador ()
+                    print("responda el siguiente formulario para validar el registro")
+                    nombreg=input("nombre online del jugador")
+                    nombrea=input("nombre real y apellido del jugador")
+                    puntaje1=input("puntaje en Fornite")
+                    puntaje2=input("puntaje en Fifa")
+                    puntaje3=input("puntaje en Valorant")
+                    print("resumen de registro")
+                    print(registro)
+
+                    
                 except:
                     print("numero/palabra erronea, seleccione de nuevo")
+        elif direccion==2:
+
     except:
         print("numero/palabra erronea, seleccione de nuevo")
-        #elif direccion==3:
-        #elif direccion==3:
-        #elif direccion==4:
